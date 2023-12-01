@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="login_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/purpleGrey80</item>
+    </style>
+
+    <style name="login_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textSize">@dimen/login_screen_textsize</item>
+    </style>
+
+    <style name="password_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textSize">@dimen/login_screen_textsize</item>
+    </style>
+
+    <style name="login_cardview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/light_blue_tint</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/login_cardview_padding</item>
+        <item name="android:layout_margin">@dimen/login_cardview_layout_margin</item>
+    </style>
+
+    <style name="logout_fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/logout_fab_layout_margin</item>
+    </style>
+
+    <style name="payment_cardview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/payment_cardview_layout_margin</item>
+        <item name="android:backgroundTint">@color/light_blue_tint</item>
+    </style>
+
+    <style name="payment_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/payment_linear_layout_padding</item>
+    </style>
+
+    <style name="payment_id_title_tv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textSize">@dimen/payment_id_title_textsize</item>
+    </style>
+
+    <style name="payment_amount_created_tv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textSize">@dimen/payment_amount_created_textsize</item>
+    </style>
+</resources>

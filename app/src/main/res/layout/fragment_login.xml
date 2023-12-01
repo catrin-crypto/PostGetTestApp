@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.main.LoginFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/login_cardview"
+        app:cardCornerRadius="@dimen/login_cardview_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/login_edittext"
+                style="@style/login_edittext"
+                android:hint="@string/login_edittext_hint" />
+
+            <EditText
+                android:id="@+id/password_edittext"
+                style="@style/password_edittext"
+                android:hint="@string/password_edittext_hint" />
+
+            <ImageButton
+                android:id="@+id/login_btn"
+                style="@style/login_btn"
+                android:contentDescription="@string/login_btn_description"
+                android:src="@drawable/ic_login_24" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

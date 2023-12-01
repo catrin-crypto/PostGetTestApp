@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/payment_cardview"
+        style="@style/payment_cardview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/payment_id_title_linearlayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/payment_linear_layout">
+
+                <TextView
+                    android:id="@+id/payment_id_tv"
+                    android:layout_weight="0.1"
+                    style="@style/payment_id_title_tv" />
+
+                <TextView
+                    android:id="@+id/payment_title_tv"
+                    android:layout_weight="0.6"
+                    style="@style/payment_id_title_tv" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/payment_amount_created_linearlayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/payment_id_title_linearlayout"
+                style="@style/payment_linear_layout">
+
+                <TextView
+                    android:id="@+id/payment_amount_tv"
+                    android:layout_weight="0.5"
+                    style="@style/payment_amount_created_tv" />
+
+                <TextView
+                    android:id="@+id/payment_created_tv"
+                    android:layout_weight="0.5"
+                    style="@style/payment_amount_created_tv" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

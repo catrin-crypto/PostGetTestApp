@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_screen_textsize">17sp</dimen>
+    <dimen name="login_cardview_padding">20dp</dimen>
+    <dimen name="login_cardview_layout_margin">10dp</dimen>
+    <dimen name="login_cardview_corner_radius">5dp</dimen>
+    <dimen name="logout_fab_layout_margin">10dp</dimen>
+    <dimen name="payment_cardview_layout_margin">2dp</dimen>
+    <dimen name="payment_linear_layout_padding">5dp</dimen>
+    <dimen name="payment_id_title_textsize">17sp</dimen>
+    <dimen name="payment_amount_created_textsize">15sp</dimen>
+</resources>
